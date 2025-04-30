@@ -1,0 +1,207 @@
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+background-image: linear-gradient(#003153, #87CEFA);
+ /* Apply the background color to the entire page */
+  color: #e6edf3; /* Ensure text remains readable */
+}
+
+/* Primary Theme Colors */
+:root {
+  --primary: #89CFF0;
+  --secondary: #000000;
+}
+/* Hero Section */
+#hero {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-text .highlight,
+#typed-text {
+  color: var(--primary);
+  font-weight: 600;
+}
+.typed-cursor {
+  color: var(--primary);
+}
+.hero-img img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 40px rgba(137, 207, 240, 0.3);
+}
+#skills {
+  background-image: linear-gradient(#003153, #87CEFA);
+}
+/* Skills Section */
+.skill-card {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  border-radius: 12px;
+  padding: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #e6edf3;
+}
+.skill-card:hover {
+  box-shadow: 0 0 16px rgba(137, 207, 240, 0.2);
+}
+/* Progress Bars */
+.progress {
+ background: #000000;
+  height: 15px;
+  border-radius: 15px;
+}
+.progress-bar {
+  background-color: var(--primary);
+}
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.935rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #e6edf3;
+}
+
+/* Technologies I Work With - slider */
+.tech-slider-wrapper {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  border-radius: 120px;
+  position: relative;
+}
+.tech-slider {
+  animation: scroll 25s linear infinite;
+  white-space: nowrap;
+}
+.tech-slider:hover {
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.tech-slider i {
+  font-size: 2rem;
+  min-width: 60px;
+  color: #e6edf3;
+  transition: transform 0.3s ease;
+}
+.tech-slider i:hover {
+  transform: scale(1.25);
+  color: #89CFF0;
+}
+.soft-card {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  border-radius: 12px;
+  border: 10px solid rgba(255, 255, 255, 0.05);
+  color: #e6edf3;
+}
+.soft-card:hover {
+  box-shadow: 0 0 16px rgba(137, 207, 240, 0.2);
+}
+
+
+#education {
+  background-image: linear-gradient(#003153, #87CEFA);
+}
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 200px;
+}
+/* Apply soft-card styling to education cards */
+#education .card {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  border-radius: 12px;
+  border: 10px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 16px rgba(137, 207, 240, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+#education .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 16px rgba(137, 207, 240, 0.2);
+}
+@media (max-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  #education .card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Contact Section */
+#contact {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  color: #e6edf3;
+}
+#contact h2,
+#contact h4,
+#contact h5 {
+  color: #e6edf3;
+}
+#contact .form-control {
+  background-color: #ffffff;
+  color: #ffffff; 
+  border: 1px solid #d1d5db;
+}
+#contact .form-control:focus {
+  border-color: #58a6ff;
+  box-shadow: 0 0 0 0.15rem rgba(88, 166, 255, 0.25);
+  color: #ffffff; 
+}
+#contact .form-check-label {
+  color: #9ca3af;
+}
+#contact .btn-primary {
+  background-color: #58a6ff;
+  border-color: #58a6ff;
+}
+
+/* Contact Info Items */
+.contact-item {
+  display: flex;
+  align-items: center;
+  color: #e6edf3; /* Text color */
+}
+.contact-item i {
+  color: #89CFF0; /* Icon color */
+  font-size: 1.2rem; /* Adjust icon size */
+}
+.contact-item span {
+  font-size: 1.2rem; 
+}
+
+/* Connect With Me Icons */
+#contact .d-flex a {
+  color: #89CFF0; 
+  font-size: 1.5rem; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#contact .d-flex a:hover {
+  transform: scale(1.2); 
+  color: #58a6ff; 
+}
+#contact .btn-primary {
+  background-color: #89CFF0;
+  border-color: #89CFF0;
+}
+/* Footer */
+footer {
+  background: linear-gradient(135deg, var(--secondary) 0%, #133a5a 100%);
+  color: #e6edf3;
+  padding: 20px 0;
+}
+footer a:hover {
+  color: var(--primary);
+}
+

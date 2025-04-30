@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Percy Mahlati | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body class="bg-dark text-light">
+  <div id="particles-js"></div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Percy Mahlati</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Hero -->
+  <header class="vh-100 d-flex align-items-center text-light bg-light" id="hero">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap gap-5">
+      <div class="hero-text">
+        <h1 class="fw-bold">Hi, I'm <span class="highlight">Percy Mahlati</span></h1>
+        <p class="fs-4 mt-3">
+          <span id="typed-text"></span>
+        </p>
+        <div class="hero-buttons mt-4">
+          <a href="assets/Percy_Mahlati_CV.pdf" class="btn btn-primary btn-lg me-2" download>
+            <i class="ri-download-line me-1"></i>Download CV
+          </a>
+          <a href="#contact" class="btn btn-outline-primary btn-lg">
+            <i class="ri-mail-line me-1"></i>Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="assets/Prof photo.jpg" alt="Percy Mahlati Profile Picture">
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <p class="text-center">[Your bio goes here]</p>
+    </div>
+  </section>
+
+ <!-- Skills -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold">Technical Skills</h2>
+    <p class="text-center text-light mb-5">A comprehensive overview of my technical expertise and proficiency levels across various technologies and tools.</p>
+
+    <div class="row g-4 mb-5">
+      <!-- Frontend -->
+      <div class="col-md-4">
+        <div class="card skill-card h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="ri-code-line me-2"></i>Frontend Development</h5>
+            <div class="progress-label">HTML/CSS <span>98%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 98%"></div>
+            </div>
+            <div class="progress-label">React.js <span>95%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+            <div class="progress-label">Vue.js <span>85%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+            <div class="progress-label">Bootstrap <span>90%</span></div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="col-md-4">
+        <div class="card skill-card h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="ri-server-line me-2"></i>Backend Development</h5>
+            <div class="progress-label">Node.js <span>92%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 92%"></div>
+            </div>
+            <div class="progress-label">Express.js <span>90%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+            <div class="progress-label">MongoDB <span>85%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+            <div class="progress-label">Python <span>80%</span></div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="col-md-4">
+        <div class="card skill-card h-100">
+          <div class="card-body">
+            <h5 class="card-title"><i class="ri-tools-line me-2"></i>Tools & Methodologies</h5>
+            <div class="progress-label">Git/GitHub <span>95%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 95%"></div>
+            </div>
+            <div class="progress-label">Docker <span>80%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+            <div class="progress-label">CI/CD <span>85%</span></div>
+            <div class="progress mb-3">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+            <div class="progress-label">Agile/Scrum <span>90%</span></div>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Technologies I Work With -->
+<h4 class="text-center mb-4 mt-5">Technologies I Work With</h4>
+<div class="tech-slider-wrapper overflow-hidden py-3">
+  <div class="tech-slider d-flex gap-5 align-items-center">
+    <i class="devicon-html5-plain colored fs-1"></i>
+    <i class="devicon-css3-plain colored fs-1"></i>
+    <i class="devicon-javascript-plain colored fs-1"></i>
+    <i class="devicon-typescript-plain colored fs-1"></i>
+    <i class="devicon-bootstrap-plain colored fs-1"></i>
+    <i class="devicon-react-original colored fs-1"></i>
+    <i class="devicon-nodejs-plain colored fs-1"></i>
+    <i class="devicon-express-original colored fs-1"></i>
+    <i class="devicon-mongodb-plain colored fs-1"></i>
+    <i class="devicon-git-plain colored fs-1"></i>
+    <i class="devicon-github-original colored fs-1"></i>
+    <i class="devicon-docker-plain colored fs-1"></i>
+  </div>
+</div>
+
+<br>
+</br>
+
+  <!-- Soft Skills -->
+    <h4 class="text-center mb-4">Soft Skills</h4>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card text-center h-100 soft-card">
+          <div class="card-body">
+            <i class="ri-group-line fs-1 text-info mb-3"></i>
+            <h6 class="fw-bold">Team Collaboration</h6>
+            <p class="text-light">Effective communication and collaboration in diverse teams</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 soft-card">
+          <div class="card-body">
+            <i class="ri-lightbulb-flash-line fs-1 text-info mb-3"></i>
+            <h6 class="fw-bold">Problem Solving</h6>
+            <p class="text-light">Analytical thinking and creative solution development</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 soft-card">
+          <div class="card-body">
+            <i class="ri-time-line fs-1 text-info mb-3"></i>
+            <h6 class="fw-bold">Time Management</h6>
+            <p class="text-light">Prioritization and efficient task completion</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 soft-card">
+          <div class="card-body">
+            <i class="ri-customer-service-line fs-1 text-info mb-3"></i>
+            <h6 class="fw-bold">Client Communication</h6>
+            <p class="text-light">Clear explanation of technical concepts to non-technical stakeholders</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+</br>
+
+  <!-- Education -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-white mb-4">Education</h2>
+      <div class="row justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm rounded p-4 border-0" style="background-color: #2f3b4a; color: #e6edf3;">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle d-flex align-items-center justify-content-center me-2"
+                   style="width: 30px; height: 30px; background-color: #89CFF0; color: #ffffff;">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-white">Bachelor of Computer and Information Sciences (Honours)</h6>
+                <small class="text-light">Varsity College</small>
+              </div>
+            </div>
+            <small class="text-light">2024 - 2024</small>
+            <p class="mb-0 mt-2 small">
+              Specialized Computer and Information Science Learning. Graduated with honors and completed Research paper "The adoption and impact of Business Intelligence on small-medium enterprises strategy".
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm rounded p-4 border-0" style="background-color: #2f3b4a; color: #e6edf3;">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle d-flex align-items-center justify-content-center me-2"
+                   style="width: 30px; height: 30px; background-color: #89CFF0; color: #ffffff;">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-white">Bachelor of Computer and Information Sciences in Application Development</h6>
+                <small class="text-light">Varsity College</small>
+              </div>
+            </div>
+            <small class="text-light">Feb 2020 - Dec 2023</small>
+            <p class="mb-0 mt-2 small">
+            Specialized in Computer and Information Science in Application Development. Graduated with bachelors and completed Work Integrated Learning (WIL) at a leading tech company.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm rounded p-4 border-0" style="background-color: #2f3b4a; color: #e6edf3;">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle d-flex align-items-center justify-content-center me-2"
+                   style="width: 30px; height: 30px; background-color: #89CFF0; color: #ffffff;">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 text-white">Higher Certificate in IT Support Services</h6>
+                <small class="text-light">Varsity College</small>
+              </div>
+            </div>
+            <small class="text-light"> Feb 2019 - Dec 2019</small>
+            <p class="mb-0 mt-2 small">
+              Dean's List all semesters. Active member of ACM student chapter and Web Development Club. Minor in Business Administration.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+<br>
+</br>
+
+<!-- Contact -->
+<section id="contact" class="py-5 text-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Get In Touch</h2>
+    <p class="text-center text-light mb-5">Have a project in mind or want to discuss potential opportunities? I'd love to hear from you.</p>
+    <div class="row g-5">
+      <div class="col-md-6">
+        <div class="p-4 rounded shadow-sm" style="background-color: #222935; border: none;">
+          <h4 class="mb-4 text-light">Send Me a Message</h4>
+          <form action="https://formsubmit.co/percymahlathi27@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control bg-dark text-light" id="fullName" name="name" placeholder="Full Name" required>
+              <label for="fullName">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control bg-dark text-light" id="email" name="email" placeholder="name@example.com" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control bg-dark text-light" id="subject" name="subject" placeholder="Subject" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control bg-dark text-light" placeholder="Your message here..." id="message" name="message" style="height: 150px" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="privacyCheck" required>
+              <label class="form-check-label text-light" for="privacyCheck">
+                I agree to the privacy policy
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-6">
+        <div>
+          <h4 class="mb-4 text-light">Contact Information</h4>
+          <div class="contact-item mb-3">
+            <i class="ri-map-pin-line me-2"></i>
+            <span>Midrand, Gauteng, RSA</span>
+          </div>
+          <div class="contact-item mb-3">
+            <i class="ri-mail-line me-2"></i>
+            <span>percymahlathi27@gmail.com</span>
+          </div>
+          <div class="contact-item mb-3">
+            <i class="ri-phone-line me-2"></i>
+            <span>+27 71 508 8988</span>
+          </div>
+          <div class="contact-item">
+            <i class="ri-time-line me-2"></i>
+            <span>Mon - Fri: 8:00 AM - 22:00 PM</span>
+          </div>
+        </div>
+      
+        <!-- Connect With Me -->
+        <h5 class="mt-5 mb-3 text-light">Connect With Me</h5>
+        <div class="d-flex gap-3">
+          <a href="#" class="fs-4"><i class="ri-linkedin-line"></i></a>
+          <a href="#" class="fs-4"><i class="ri-github-line"></i></a>
+          <a href="#" class="fs-4"><i class="ri-twitter-x-line"></i></a>
+          <a href="#" class="fs-4"><i class="ri-dribbble-line"></i></a>
+        </div>
+      </div>
+</section>
+
+<br>
+</br>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>\
+
+<script>
+  new Typed("#typed-text", {
+    strings: [
+      "Passionate about creating beautiful, scalable web applications",
+      "Full Stack Developer",
+      "JavaScript & Bootstrap Enthusiast",
+      "Let's build something amazing together!"
+    ],
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
+  <!-- Footer -->
+  <footer class="bg-dark py-4 border-top">
+    <div class="container text-center">
+      <p>&copy; 2025 Percy Mahlati. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
